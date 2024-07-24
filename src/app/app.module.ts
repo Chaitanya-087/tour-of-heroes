@@ -8,6 +8,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { QuoteDetailsComponent } from "./quote-details/quote-details.component";
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { RouterLink } from '@angular/router';
 
 @NgModule({
     declarations: [AppComponent],
@@ -18,7 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
     HeroDetailComponent,
     QuoteDetailsComponent,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
 ],
     providers: [],
     bootstrap: [AppComponent]
